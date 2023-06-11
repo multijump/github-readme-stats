@@ -10,13 +10,13 @@
   ],
   "main": "src/index.js",
   "type": "module",
-  "homepage": "https://github.com/anuraghazra/github-readme-stats",
+  "homepage": "https://github.com/multijump/github-readme-stats",
   "bugs": {
-    "url": "https://github.com/anuraghazra/github-readme-stats/issues"
+    "url": "https://github.com/multijump/github-readme-stats/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anuraghazra/github-readme-stats.git"
+    "url": "https://github.com/multijump/github-readme-stats.git"
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
@@ -31,7 +31,6 @@
     "format:check": "prettier --check .",
     "prepare": "husky install"
   },
-  "author": "Anurag Hazra",
   "license": "MIT",
   "devDependencies": {
     "@actions/core": "^1.9.1",
@@ -55,6 +54,7 @@
     "axios": "^0.24.0",
     "dotenv": "^8.2.0",
     "emoji-name-map": "^1.2.8",
+    "express": "^4.18.2",
     "github-username-regex": "^1.0.0",
     "upgrade": "^1.1.0",
     "word-wrap": "^1.2.3"
